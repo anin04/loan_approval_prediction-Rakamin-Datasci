@@ -5,13 +5,13 @@ by :
 ## Table of Content
 
 1. [Dataset](#1-dataset)
-2. [Experiment Setup](#2-experiment-setup)
-3. [Performance Results](#3-performance-results)
-4. [Back Translation Results](#4-back-translation-results)
+2. [Insights](#2-insights)
+3. [Data Cleaning and Preprocessing](#3-data-cleaning-and-preprocessing)
+4. [Feature Engineering](#4-feature-engineering)
 5. [Conclusion](#5-conclusion)
 6. [References](#6-references)
 
-## Dataset
+## 1. Dataset
 
 Dataset Used : [Loan Prediction Based on Customer Behavior](https://www.kaggle.com/datasets/subhamjain/loan-prediction-based-on-customer-behavior)
 
@@ -47,7 +47,7 @@ for loan default
 | Current House Years | Number of years in the current residence     | int64  |
 | Risk Flag           | Labels: 1 = Default; 0 = Not Default         | int64  |
 
-## Insights
+## 2. Insights
 
 ### Numerical Features Distribution
 
@@ -94,7 +94,7 @@ Insights :
 3. Need AI & machine learning approach
    learning approach for better accuracy.\
 
-## Data Cleaning and Preprocessing
+## 3. Data Cleaning and Preprocessing
 
 ![alt text](image-7.png)
 We can see here that there are no outliers
@@ -102,7 +102,7 @@ We can see here that there are no outliers
 ![alt text](image-8.png)
 There are a few inconsistencies on the names of the states and city where some of them will have [XY] added to the end of the name, this have been handled by simply removing all [XY] from the data that has them.
 
-## Feature Engineering
+## 4. Feature Engineering
 
 ### 1. Career Maturity Index
 
